@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prasad More - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-content">
+                <div class="logo">
+                    <a href="#">Prasad More</a>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>👋 Hey there!</h1>
+                    <h2>I'm Prasad More</h2>
+                    <p>Architecting the future of AI through energy-efficient hardware acceleration and neural network optimization</p>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/prasadmorea" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/prasadmore03" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=prasadmorea@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
+                    </div>
+                    <div class="resume-link">
+                        <a href="https://drive.google.com/drive/folders/11bfm2DLpPkOpF065lYSdg7fn9VW8XVRW?usp=sharing" target="_blank">
+                            <i class="fas fa-file-alt"></i> View My Resumes
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="profile.jpg" alt="Prasad More">
+                </div>
+            </div>
+        </section>
+
+        <section id="about">
+            <h2>About Me</h2>
+            <p>I'm passionate about building intelligent, energy-efficient AI systems that bridge the gap between deep learning and hardware. With a strong foundation in digital systems and hardware design, I've developed expertise in:</p>
+            <div class="expertise-grid">
+                <div class="expertise-item">
+                    <h3>AI & Deep Learning</h3>
+                    <ul>
+                        <li>Convolutional Neural Networks (CNNs)</li>
+                        <li>Reinforcement Learning</li>
+                        <li>Large Language Models (LLMs)</li>
+                        <li>Transformers Architecture</li>
+                        <li>Diffusion Models</li>
+                    </ul>
+                </div>
+                <div class="expertise-item">
+                    <h3>Hardware Optimization</h3>
+                    <ul>
+                        <li>Energy-Efficient Systems</li>
+                        <li>Model Optimization</li>
+                        <li>Hardware Accelerators</li>
+                        <li>Digital System Design</li>
+                        <li>FPGA Implementation</li>
+                    </ul>
+                </div>
+            </div>
+            <p class="mission-statement">My mission is to create practical, high-impact solutions by combining cutting-edge AI technologies with efficient hardware implementations.</p>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3>Programming Languages</h3>
+                    <ul>
+                        <li>Python</li>
+                        <li>C</li>
+                        <li>C++</li>
+                        <li>MATLAB</li>
+                        <li>Assembly Language</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Hardware Description Languages</h3>
+                    <ul>
+                        <li>Verilog</li>
+                        <li>SystemVerilog</li>
+                        <li>UVM</li>
+                        <li>Transaction-Level Verilog</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>AI/ML Frameworks</h3>
+                    <ul>
+                        <li>PyTorch</li>
+                        <li>TensorFlow</li>
+                        <li>Keras</li>
+                        <li>Hugging Face Transformers</li>
+                        <li>OpenAI API</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Tools & Software</h3>
+                    <ul>
+                        <li>ModelSim</li>
+                        <li>Questasim</li>
+                        <li>Vivado</li>
+                        <li>Git</li>
+                        <li>PowerBI</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2>Featured Projects</h2>
+            <div class="drive-link">
+                <p>Access detailed documentation for hardware projects here:</p>
+                <a href="https://drive.google.com/drive/folders/1nkJf2Ww3Uel-QxqZXsbtG0Fd_I54xJx5?usp=sharing" target="_blank">
+                    <i class="fab fa-google-drive"></i> Hardware Projects Documentation
+                </a>
+            </div>
+            <div class="projects-grid">
+                <!-- First Row: Hardware Projects -->
+                <!-- 1. CNN Accelerator -->
+                <div class="project-card">
+                    <h3>CNN Accelerator Design</h3>
+                    <p>Designed and implemented a highly optimized CNN hardware accelerator based on Eyeriss architecture, featuring a 4×5 array of processing elements with row-stationary dataflow for efficient convolution operations.</p>
+                    <div class="project-details">
+                        <ul>
+                            <li>Implemented ping-pong buffering and tiling for optimized memory access</li>
+                            <li>Developed handshake-based control systems for improved throughput</li>
+                            <li>Achieved 0.115 Watts power consumption through efficient design</li>
+                            <li>Verified through LVS and DRC checks on Sky130nm process</li>
+                        </ul>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/prasadmore03/mini_project_sem6" target="_blank" class="github-link">
+                            <i class="fab fa-github"></i> View Source Code
+                        </a>
+                    </div>
+                    <div class="project-tags">
+                        <span>Hardware Design</span>
+                        <span>Deep Learning</span>
+                        <span>OpenLane</span>
+                        <span>Sky130nm</span>
+                        <span>Memory Optimization</span>
+                    </div>
+                </div>
+
+                <!-- 2. Object Detection -->
+                <div class="project-card">
+                    <h3>Object Detection using SNNs</h3>
+                    <p>Developed a brain-inspired, energy-efficient object detection system using Spiking Neural Networks. Implemented a ResNet-based SNN model with SpikingJelly framework and created TinySNN for FPGA deployment.</p>
+                    <div class="project-details">
+                        <ul>
+                            <li>Implemented ANN-to-SNN conversion and quantization</li>
+                            <li>Used ONNX and hls4ml for hardware synthesis</li>
+                            <li>Optimized for low-power, real-time recognition</li>
+                        </ul>
+                    </div>
+                    <div class="project-tags">
+                        <span>SNNs</span>
+                        <span>FPGA</span>
+                        <span>Computer Vision</span>
+                        <span>Hardware Optimization</span>
+                    </div>
+                </div>
+
+                <!-- 3. RISC-V -->
+                <div class="project-card">
+                    <h3>GYMS-16: RISC-V Processor</h3>
+                    <p>Designed and implemented a 16-bit pipelined RISC-V processor using Verilog, featuring Harvard architecture and comprehensive instruction support for arithmetic, logical, shift, and memory operations.</p>
+                    <div class="project-details">
+                        <ul>
+                            <li>Implemented 5-stage pipeline (IF, ID, EX, MEM, WB) for improved throughput</li>
+                            <li>Developed custom Python-based assembler for binary code generation</li>
+                            <li>Supported 13 diverse instructions for complete computational capability</li>
+                            <li>Verified using Icarus Verilog and GTKWave simulation tools</li>
+                            <li>Successfully synthesized design using Quartus Prime</li>
+                        </ul>
+                    </div>
+                    <div class="project-tags">
+                        <span>RISC-V</span>
+                        <span>Verilog</span>
+                        <span>Harvard Architecture</span>
+                        <span>Pipeline Design</span>
+                        <span>Quartus Prime</span>
+                    </div>
+                </div>
+
+                <!-- Second Row: Software Projects -->
+                <!-- 4. InsightBot -->
+                <div class="project-card">
+                    <h3>InsightBot - Advanced RAG Platform</h3>
+                    <p>Built an intelligent document analysis platform using Retrieval-Augmented Generation (RAG) for processing multiple data formats and delivering context-aware insights.</p>
+                    <div class="project-details">
+                        <ul>
+                            <li>Multi-format document processing (PDF, DOCX, JSON)</li>
+                            <li>Hybrid semantic search with knowledge graphs</li>
+                            <li>Advanced Q&A and data analysis capabilities</li>
+                        </ul>
+                    </div>
+                    <div class="project-tags">
+                        <span>RAG</span>
+                        <span>NLP</span>
+                        <span>Knowledge Graphs</span>
+                        <span>Business Intelligence</span>
+                    </div>
+                </div>
+
+                <!-- 5. A2A Healthcare -->
+                <div class="project-card">
+                    <h3>A2A - Intelligent Healthcare System</h3>
+                    <p>Developed an Agent-to-Agent healthcare system utilizing multiple specialized software agents working together to provide comprehensive medical assistance.</p>
+                    <div class="project-details">
+                        <ul>
+                            <li>Implemented 4 specialized agents: Diagnostic, Medication, Referral & Diet, and Patient Agent</li>
+                            <li>Built using Python and Flask/FastAPI with rule-based decision making</li>
+                            <li>Created inter-agent communication system for collaborative diagnosis</li>
+                            <li>Automated complex medical decision-making processes</li>
+                        </ul>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/prasadmore03/Doctor.AI" target="_blank" class="github-link">
+                            <i class="fab fa-github"></i> View Source Code
+                        </a>
+                    </div>
+                    <div class="project-tags">
+                        <span>Multi-Agent Systems</span>
+                        <span>Healthcare AI</span>
+                        <span>Python</span>
+                        <span>FastAPI</span>
+                    </div>
+                </div>
+
+                <!-- 6. AI Story Generator -->
+                <div class="project-card">
+                    <h3>AI Story Generator</h3>
+                    <p>Created an innovative multimedia story generation tool that transforms text prompts into fully illustrated and narrated stories using advanced AI models.</p>
+                    <div class="project-details">
+                        <ul>
+                            <li>Integrated multiple AI models for text, image, and audio generation</li>
+                            <li>Automated compilation into video or PDF formats</li>
+                            <li>Implemented customization options for prompts and outputs</li>
+                            <li>Designed user-friendly interface for creative storytelling</li>
+                        </ul>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/prasadmore03/AI_story_creater" target="_blank" class="github-link">
+                            <i class="fab fa-github"></i> View Source Code
+                        </a>
+                    </div>
+                    <div class="project-tags">
+                        <span>Generative AI</span>
+                        <span>Multimedia</span>
+                        <span>Creative Tools</span>
+                        <span>Content Generation</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="education">
+            <h2>Education</h2>
+            <div class="education-card">
+                <h3>Indian Institute of Information Technology Dharwad (IIIT Dharwad)</h3>
+                <p class="degree">Bachelor of Technology in Electronics and Communication Engineering</p>
+                <p class="duration">Dec 2021 – July 2025</p>
+                <div class="coursework">
+                    <h4>Key Coursework:</h4>
+                    <ul>
+                        <li>Digital and Analog Circuits Design</li>
+                        <li>Embedded Systems Design</li>
+                        <li>VLSI Design</li>
+                        <li>Machine Learning & Deep Learning</li>
+                        <li>Energy Efficient Neural Networks</li>
+                        <li>Generative AI & Large Language Models</li>
+                        <li>DevOps & CI/CD Pipelines</li>
+                        <li>Human-Computer Interaction</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Get in Touch</h2>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=prasadmorea@gmail.com" target="_blank">prasadmorea@gmail.com</a>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <p>+91 9096472997</p>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <p>Chh. Sambhajinagar (Aurangabad), Maharashtra, India</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Prasad More. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
